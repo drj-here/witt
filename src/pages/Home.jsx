@@ -7,7 +7,7 @@ import DownloadButton from '../components/DownloadButton';
 export default function Home() {
   return (
     <div className='bg-red-500 h-5/6 w-auto rounded-xl p-6'>
-      <div className='flex flex-row'>
+      <div className='flex flex-row justify-between'>
         <Comp1 />
         <VideoButton />
       </div>
